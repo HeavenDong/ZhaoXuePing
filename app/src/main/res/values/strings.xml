@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EME信息</string>
+
+    <string-array name="tab_name">
+        <item name="tab_home">考勤信息</item>
+        <!--<item name="tab_show">内容</item>-->
+        <item name="tab_shop">小组通知</item>
+        <item name="tab_me">我的</item>
+    </string-array>
+</resources>

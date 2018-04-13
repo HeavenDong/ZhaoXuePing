@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white"
+    >
+    <TextView
+        android:id="@+id/tv_code"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="00000001"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="60dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="6dp"
+        android:maxLength="4"
+        android:text="大风"/>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="2018/03/09/ 08:40"/>
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/default_avatar"
+        />
+</LinearLayout>
